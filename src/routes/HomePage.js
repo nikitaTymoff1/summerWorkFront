@@ -119,7 +119,7 @@ class HomePage extends Component {
                 {this.header(username)}
                 <SidebarComponent>
                     {
-                        role === 'admin' ? (adminOptions.map(item => (
+                        role === 'admin' || 'superAdmin' ? (adminOptions.map(item => (
                             <StyledLink to={'/' + item} key={item}>
                                 <Option
                                     id={item}

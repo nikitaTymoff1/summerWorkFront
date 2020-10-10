@@ -86,7 +86,8 @@ class App extends Component {
                                     path='/Users'
                                     onlyAdmin={true}
                                     role={role}>
-                                    <UsersPage/>
+                                    <UsersPage
+                                    role={role}/>
                                 </PrivateRoute>
                                 {/*<PrivateRoute*/}
                                 {/*    exact*/}

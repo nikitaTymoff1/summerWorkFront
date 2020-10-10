@@ -45,11 +45,6 @@ class ProfilePage extends Component {
                             </Col>
                         </Col>
                         <Col sm={2}>
-                            <Link to={"/MyTours"}>
-                                <Button variant={"outline-dark"} size={"sm"} >
-                                    TOURS
-                                </Button>
-                            </Link>
                         </Col>
                     </Row>
 
